@@ -42,5 +42,6 @@ top_group = []
 
 for number in range(19):
     top_group.append(new.pop())
-for number in range(19):
-    print(top_group[number])
+
+for burn in top_group:
+    print(*burn)
